@@ -7,11 +7,9 @@ const { incrementCount } = globalStore;
 </script>
 
 <template>
-    <UContainer class="h-lvh flex justify-center items-center">
-        <UCard>
-            <div>hi there!</div>
-            <div>count is {{ count }}</div>
-            <UButton @click="incrementCount">increment</UButton>
-        </UCard>
-    </UContainer>
+    <div>
+        <div>hi there!</div>
+        <div>count is {{ count }}</div>
+        <UButton @click="incrementCount">increment</UButton>
+    </div>
 </template>

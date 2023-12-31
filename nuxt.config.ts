@@ -21,6 +21,11 @@ export default async () =>
             "@pinia/nuxt",
             "@nuxt/ui",
         ],
-
+        components: [
+            {
+                path: "~/components",
+                pathPrefix: false,
+            },
+        ],
         appConfig: {},
     });
