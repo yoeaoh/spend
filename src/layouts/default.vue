@@ -1,8 +1,8 @@
 <template>
-    <div class="w-full h-screen flex">
+    <div class="w-full min-h-screen flex">
         <Sidebar />
 
-        <div class="h-full w-full p-2">
+        <div class="w-full min-h-full p-4">
             <slot />
         </div>
     </div>

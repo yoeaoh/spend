@@ -4,11 +4,31 @@
     <div class="dashboard">
         <div class="dashboard__column">
             <UCard>
-                <template #header> asd </template>
+                <template #header>asd</template>
 
-                asd
+                <template #default>asd</template>
 
-                <template #footer> asd </template>
+                <template #footer>asd</template>
+            </UCard>
+        </div>
+
+        <div class="dashboard__column">
+            <UCard>
+                <template #header>asd</template>
+
+                <template #default>asd</template>
+
+                <template #footer>asd</template>
+            </UCard>
+        </div>
+
+        <div class="dashboard__column">
+            <UCard>
+                <template #header>asd</template>
+
+                <template #default>asd</template>
+
+                <template #footer>asd</template>
             </UCard>
         </div>
 
@@ -16,27 +36,7 @@
             <UCard>
                 <template #header> asd </template>
 
-                asd
-
-                <template #footer> asd </template>
-            </UCard>
-        </div>
-
-        <div class="dashboard__column">
-            <UCard>
-                <template #header> asd </template>
-
-                asd
-
-                <template #footer> asd </template>
-            </UCard>
-        </div>
-
-        <div class="dashboard__column">
-            <UCard>
-                <template #header> asd </template>
-
-                asd
+                <template #default>asd</template>
 
                 <template #footer> asd </template>
             </UCard>
